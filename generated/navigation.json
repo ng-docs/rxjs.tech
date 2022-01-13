@@ -11,6 +11,10 @@
     {
       "url": "team",
       "title": "团队"
+    },
+    {
+      "url": "https://blog.ralph.wang",
+      "title": "译者博客"
     }
   ],
   "TopBarNarrow": [],
@@ -142,12 +146,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.1601fec3b",
+    "build": "sha.e376e1850",
     "version": "7.5.3-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "7.5.3-local+sha.1601fec3b",
+    "full": "7.5.3-local+sha.e376e1850",
     "branch": "master",
-    "commitSHA": "1601fec3b296741113974a860a40c5422e2a3e04"
+    "commitSHA": "e376e1850a4246c61b059c8bfef455e7abcb6d3b"
   }
 }
