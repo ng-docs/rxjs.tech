@@ -1,0 +1,153 @@
+{
+  "TopBar": [
+    {
+      "url": "guide/overview",
+      "title": "概览"
+    },
+    {
+      "url": "api",
+      "title": "参考手册"
+    },
+    {
+      "url": "team",
+      "title": "团队"
+    }
+  ],
+  "TopBarNarrow": [],
+  "SideNav": [
+    {
+      "url": "guide/overview",
+      "title": "概览",
+      "tooltip": "RxJS 概览",
+      "children": [
+        {
+          "url": "guide/observable",
+          "title": "可观察者（Observables）"
+        },
+        {
+          "url": "guide/observer",
+          "title": "观察者（Observer）"
+        },
+        {
+          "url": "guide/operators",
+          "title": "操作符（Operators）"
+        },
+        {
+          "url": "guide/subscription",
+          "title": "订阅（Subscription）"
+        },
+        {
+          "url": "guide/subject",
+          "title": "主体（Subjects）"
+        },
+        {
+          "url": "guide/scheduler",
+          "title": "调度器（Scheduler）"
+        },
+        {
+          "url": "guide/testing/marble-testing",
+          "title": "弹珠测试"
+        }
+      ]
+    },
+    {
+      "url": "guide/installation",
+      "title": "安装",
+      "tooltip": "安装"
+    },
+    {
+      "url": "guide/importing",
+      "title": "导入",
+      "tooltip": "导入 RxJS"
+    },
+    {
+      "url": "api",
+      "title": "参考手册",
+      "tooltip": "RxJS 参考手册"
+    },
+    {
+      "url": "guide/glossary-and-semantics",
+      "title": "词汇表",
+      "tooltip": "词汇表及其语义"
+    },
+    {
+      "tooltip": "操作符决策树",
+      "url": "operator-decision-tree",
+      "title": "操作符决策树"
+    },
+    {
+      "title": "弃用 & 重大变更",
+      "children": [
+        {
+          "url": "deprecations/breaking-changes",
+          "title": "重大变更"
+        },
+        {
+          "url": "deprecations/scheduler-argument",
+          "title": "Scheduler 参数"
+        },
+        {
+          "url": "deprecations/subscribe-arguments",
+          "title": "Subscribe 参数"
+        },
+        {
+          "url": "deprecations/resultSelector",
+          "title": "ResultSelector 参数"
+        },
+        {
+          "url": "deprecations/array-argument",
+          "title": "Array 参数"
+        },
+        {
+          "url": "deprecations/multicasting",
+          "title": "Multicasting"
+        },
+        {
+          "url": "deprecations/to-promise",
+          "title": "转换为 Promises"
+        }
+      ]
+    },
+    {
+      "url": "6-to-7-change-summary",
+      "title": "详细变更列表",
+      "tooltip": "详细变更列表"
+    },
+    {
+      "url": "code-of-conduct",
+      "title": "行为规范",
+      "tooltip": "行为规范"
+    }
+  ],
+  "docVersions": [
+    {
+      "title": "stable",
+      "url": "https://rxjs.dev/"
+    },
+    {
+      "title": "v6",
+      "url": "https://v6.rxjs.dev/"
+    }
+  ],
+  "__versionInfo": {
+    "options": {
+      "loose": false,
+      "includePrerelease": false
+    },
+    "loose": false,
+    "raw": "7.5.2",
+    "major": 7,
+    "minor": 5,
+    "patch": 3,
+    "prerelease": [
+      "local"
+    ],
+    "build": "sha.1601fec3b",
+    "version": "7.5.3-local",
+    "codeName": "snapshot",
+    "isSnapshot": true,
+    "full": "7.5.3-local+sha.1601fec3b",
+    "branch": "master",
+    "commitSHA": "1601fec3b296741113974a860a40c5422e2a3e04"
+  }
+}
