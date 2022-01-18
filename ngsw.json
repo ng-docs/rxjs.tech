@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1642497448467,
+  "timestamp": 1642499671213,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -42,7 +42,6 @@
         "/970-es2015.e23ebe0f252ae5333f6b.js",
         "/970-es5.e23ebe0f252ae5333f6b.js",
         "/app/search/search-worker.js",
-        "/assets/images/favicons/favicon.ico",
         "/assets/js/custom-elements.min.js",
         "/assets/js/devtools-welcome.js",
         "/assets/js/lunr.min.js",
@@ -52,8 +51,8 @@
         "/common-es2015.8285eaed4a3acf35f6a9.js",
         "/common-es5.8285eaed4a3acf35f6a9.js",
         "/index.html",
-        "/main-es2015.09564362fc0babf6f550.js",
-        "/main-es5.09564362fc0babf6f550.js",
+        "/main-es2015.1168aa6c5a0d0d86a585.js",
+        "/main-es5.1168aa6c5a0d0d86a585.js",
         "/polyfills-es2015.d95e2a8ddc6ccacab517.js",
         "/polyfills-es5.94c87d1d392984df8364.js",
         "/pwa-manifest.json",
@@ -80,7 +79,10 @@
         "/assets/images/logos/github-icon.svg",
         "/assets/images/logos/logo.png",
         "/assets/images/logos/twitter-icon.svg",
-        "/assets/images/support/rxjs-404.png"
+        "/assets/images/support/rxjs-404.png",
+        "/generated/images/marketing/home/Rx_Logo-512-512.png",
+        "/generated/images/marketing/home/rxjs-live-london.svg",
+        "/generated/images/marketing/home/rxjs-live.svg"
       ],
       "patterns": []
     },
@@ -100,7 +102,8 @@
         "/assets/images/favicons/favicon-384x384.png",
         "/assets/images/favicons/favicon-512x512.png",
         "/assets/images/favicons/favicon-72x72.png",
-        "/assets/images/favicons/favicon-96x96.png"
+        "/assets/images/favicons/favicon-96x96.png",
+        "/assets/images/favicons/favicon.ico"
       ],
       "patterns": []
     },
@@ -526,10 +529,7 @@
         "/generated/docs/guide/scheduler.json",
         "/generated/docs/guide/subject.json",
         "/generated/docs/guide/subscription.json",
-        "/generated/docs/guide/testing/marble-testing.json",
-        "/generated/images/marketing/home/Rx_Logo-512-512.png",
-        "/generated/images/marketing/home/rxjs-live-london.svg",
-        "/generated/images/marketing/home/rxjs-live.svg"
+        "/generated/docs/guide/testing/marble-testing.json"
       ],
       "patterns": []
     },
@@ -1202,7 +1202,7 @@
     "/generated/docs/api/webSocket/WebSocketSubject.json": "dcf113b097f5ca41a19c1c718f0745aadf11f3e8",
     "/generated/docs/api/webSocket/WebSocketSubjectConfig.json": "d07307ff66f25b47e1a373734375fb3a48fbaf69",
     "/generated/docs/api/webSocket/webSocket.json": "e594d12864bc1e28b5f57d6154678e7b5884b5fe",
-    "/generated/docs/app/decision-tree-data.json": "742ae8abcba3284f872021842aae10e8d77202cb",
+    "/generated/docs/app/decision-tree-data.json": "a988ccf8ffdcedf62717cf71a257dc7b62237ee1",
     "/generated/docs/app/search-data.json": "f5c842796f68834ccaae78ab3b179ea80e822544",
     "/generated/docs/blackLivesMatter.json": "21fa13a36d87e32f09f72d13aabf5bfb30fe824f",
     "/generated/docs/code-of-conduct.json": "a766fc4e8bce0090042596daca58e546ecb3f3b3",
@@ -1223,12 +1223,12 @@
     "/generated/docs/guide/observable.json": "846763d9054af41258af49326ffdd1b48b4105f9",
     "/generated/docs/guide/observer.json": "4b006dc2ca9e7f4dd08d50a5970d4db56e4c981c",
     "/generated/docs/guide/operators.json": "d804ec8c19c4d0abca54c5632d3129b1ef55ef00",
-    "/generated/docs/guide/overview.json": "665281965a6b4cdc725f3d09125d868fceb6ff06",
+    "/generated/docs/guide/overview.json": "4cfae966980bab8df7c9ac9c889a68055a461411",
     "/generated/docs/guide/scheduler.json": "79e7b5122fde13e6438e43f1b2a0186f19bbb5f7",
     "/generated/docs/guide/subject.json": "76683fd2b71d13468a6ab877e8b12346165c399c",
     "/generated/docs/guide/subscription.json": "0a37c92c8aff9bf73703c5dab1bb7e8e9919fd47",
     "/generated/docs/guide/testing/marble-testing.json": "9a07bec3128ffb89352ee172e9f5d88091ff49e5",
-    "/generated/docs/index.json": "4528b3667668452ec7e80a6eaf6a7de342c37936",
+    "/generated/docs/index.json": "5c1c445dfcd2e2f49e6a1e9fa8154690570840a5",
     "/generated/docs/license.json": "4d7aff7f52af2286211625172031ffb50c5d3e16",
     "/generated/docs/maintainer-guidelines.json": "988e34730b4fc1772b31eb4a82721e4459987de3",
     "/generated/docs/operator-decision-tree.json": "2dbcd59516907e069fe2258a0415fa512270ec37",
@@ -1236,10 +1236,10 @@
     "/generated/images/marketing/home/Rx_Logo-512-512.png": "e6ef1cb9cb6713ce6a2f9dbba3fadd2cbb857b61",
     "/generated/images/marketing/home/rxjs-live-london.svg": "ee5be6c5fa1ace0189d08d9e5b0c5b85329d75b8",
     "/generated/images/marketing/home/rxjs-live.svg": "7820f8617811705386e2630d7cb79c4e73b7a5ca",
-    "/generated/navigation.json": "f281272e086507dd530a53f5ba01fc36e7f84ec2",
-    "/index.html": "f594d42aa981a1c11f4453847fcbdc2e9ccf5c15",
-    "/main-es2015.09564362fc0babf6f550.js": "18b835563bdd7c8965a6734496a1598f5e96f6b0",
-    "/main-es5.09564362fc0babf6f550.js": "54d202de36f8eb7bf8eb7ce4772f92f520f42f69",
+    "/generated/navigation.json": "aaa5f3235e746ba49536945fcb33be1e7be8d6b4",
+    "/index.html": "bbaa6a61a3c1193363b5c3944661113c19f96998",
+    "/main-es2015.1168aa6c5a0d0d86a585.js": "318e94497862527a08c2195cc6e147010fdee46f",
+    "/main-es5.1168aa6c5a0d0d86a585.js": "591fa7bd5a6a410f9d2dec8bcbe0434997d7e2b6",
     "/polyfills-es2015.d95e2a8ddc6ccacab517.js": "1a497d8264c84e6ebaf1b651c8ee2e93c5536035",
     "/polyfills-es5.94c87d1d392984df8364.js": "234ebe2e7e2c06952706f6cd41e4faff51a8ec20",
     "/pwa-manifest.json": "730c1f962b759e484e90ea92f8ef2414eaace09d",

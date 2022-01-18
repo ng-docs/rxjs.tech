@@ -14,7 +14,8 @@
     },
     {
       "url": "https://blog.ralph.wang",
-      "title": "译者博客"
+      "title": "译者博客",
+      "external": true
     }
   ],
   "TopBarNarrow": [],
@@ -146,12 +147,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.92d6cfbc9",
+    "build": "sha.d3ef3199e",
     "version": "7.5.3-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "7.5.3-local+sha.92d6cfbc9",
+    "full": "7.5.3-local+sha.d3ef3199e",
     "branch": "master",
-    "commitSHA": "92d6cfbc9d69823ec7ddd70361975ef88c07eeab"
+    "commitSHA": "d3ef3199ee21324d0d8fc4645c72bc3bfb112ff7"
   }
 }
