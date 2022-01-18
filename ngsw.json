@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1642492815285,
+  "timestamp": 1642493306186,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -42,6 +42,7 @@
         "/970-es2015.e23ebe0f252ae5333f6b.js",
         "/970-es5.e23ebe0f252ae5333f6b.js",
         "/app/search/search-worker.js",
+        "/assets/images/favicons/favicon.ico",
         "/assets/js/custom-elements.min.js",
         "/assets/js/devtools-welcome.js",
         "/assets/js/lunr.min.js",
@@ -79,7 +80,10 @@
         "/assets/images/logos/github-icon.svg",
         "/assets/images/logos/logo.png",
         "/assets/images/logos/twitter-icon.svg",
-        "/assets/images/support/rxjs-404.png"
+        "/assets/images/support/rxjs-404.png",
+        "/generated/images/marketing/home/Rx_Logo-512-512.png",
+        "/generated/images/marketing/home/rxjs-live-london.svg",
+        "/generated/images/marketing/home/rxjs-live.svg"
       ],
       "patterns": []
     },
@@ -99,8 +103,7 @@
         "/assets/images/favicons/favicon-384x384.png",
         "/assets/images/favicons/favicon-512x512.png",
         "/assets/images/favicons/favicon-72x72.png",
-        "/assets/images/favicons/favicon-96x96.png",
-        "/assets/images/favicons/favicon.ico"
+        "/assets/images/favicons/favicon-96x96.png"
       ],
       "patterns": []
     },
@@ -526,10 +529,7 @@
         "/generated/docs/guide/scheduler.json",
         "/generated/docs/guide/subject.json",
         "/generated/docs/guide/subscription.json",
-        "/generated/docs/guide/testing/marble-testing.json",
-        "/generated/images/marketing/home/Rx_Logo-512-512.png",
-        "/generated/images/marketing/home/rxjs-live-london.svg",
-        "/generated/images/marketing/home/rxjs-live.svg"
+        "/generated/docs/guide/testing/marble-testing.json"
       ],
       "patterns": []
     },
@@ -1202,7 +1202,7 @@
     "/generated/docs/api/webSocket/WebSocketSubject.json": "dcf113b097f5ca41a19c1c718f0745aadf11f3e8",
     "/generated/docs/api/webSocket/WebSocketSubjectConfig.json": "d07307ff66f25b47e1a373734375fb3a48fbaf69",
     "/generated/docs/api/webSocket/webSocket.json": "e594d12864bc1e28b5f57d6154678e7b5884b5fe",
-    "/generated/docs/app/decision-tree-data.json": "9634e45252171a81c8501d8ddc201731724fcfa8",
+    "/generated/docs/app/decision-tree-data.json": "f6be8a7d22f6ab939837978f425021491aad215e",
     "/generated/docs/app/search-data.json": "f5c842796f68834ccaae78ab3b179ea80e822544",
     "/generated/docs/blackLivesMatter.json": "21fa13a36d87e32f09f72d13aabf5bfb30fe824f",
     "/generated/docs/code-of-conduct.json": "a766fc4e8bce0090042596daca58e546ecb3f3b3",
@@ -1223,7 +1223,7 @@
     "/generated/docs/guide/observable.json": "846763d9054af41258af49326ffdd1b48b4105f9",
     "/generated/docs/guide/observer.json": "4b006dc2ca9e7f4dd08d50a5970d4db56e4c981c",
     "/generated/docs/guide/operators.json": "d804ec8c19c4d0abca54c5632d3129b1ef55ef00",
-    "/generated/docs/guide/overview.json": "b6c29f1b57730141077fd59cac7cfba21df11982",
+    "/generated/docs/guide/overview.json": "029b9cbad52a57fc0b08c99d330f6d7bc09eb3be",
     "/generated/docs/guide/scheduler.json": "79e7b5122fde13e6438e43f1b2a0186f19bbb5f7",
     "/generated/docs/guide/subject.json": "76683fd2b71d13468a6ab877e8b12346165c399c",
     "/generated/docs/guide/subscription.json": "0a37c92c8aff9bf73703c5dab1bb7e8e9919fd47",
@@ -1236,7 +1236,7 @@
     "/generated/images/marketing/home/Rx_Logo-512-512.png": "e6ef1cb9cb6713ce6a2f9dbba3fadd2cbb857b61",
     "/generated/images/marketing/home/rxjs-live-london.svg": "ee5be6c5fa1ace0189d08d9e5b0c5b85329d75b8",
     "/generated/images/marketing/home/rxjs-live.svg": "7820f8617811705386e2630d7cb79c4e73b7a5ca",
-    "/generated/navigation.json": "6d51ad52e2d56df8f15d584641ecae519b662680",
+    "/generated/navigation.json": "f4e965ba04602006bd3b45ff2672718ae980ee20",
     "/index.html": "fa13c421e289535616c9966c8e736f341779df49",
     "/main-es2015.4c11f8815c0c678da4fc.js": "94d0427a64416a0fdb5b568ea3bcb9877f2426e9",
     "/main-es5.4c11f8815c0c678da4fc.js": "6aaabeb635db2826907021cb7fcdef30fb8f6fe3",
