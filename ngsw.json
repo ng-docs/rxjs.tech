@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1642494241205,
+  "timestamp": 1642495485984,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -80,7 +80,10 @@
         "/assets/images/logos/github-icon.svg",
         "/assets/images/logos/logo.png",
         "/assets/images/logos/twitter-icon.svg",
-        "/assets/images/support/rxjs-404.png"
+        "/assets/images/support/rxjs-404.png",
+        "/generated/images/marketing/home/Rx_Logo-512-512.png",
+        "/generated/images/marketing/home/rxjs-live-london.svg",
+        "/generated/images/marketing/home/rxjs-live.svg"
       ],
       "patterns": []
     },
@@ -526,10 +529,7 @@
         "/generated/docs/license.json",
         "/generated/docs/maintainer-guidelines.json",
         "/generated/docs/operator-decision-tree.json",
-        "/generated/docs/team.json",
-        "/generated/images/marketing/home/Rx_Logo-512-512.png",
-        "/generated/images/marketing/home/rxjs-live-london.svg",
-        "/generated/images/marketing/home/rxjs-live.svg"
+        "/generated/docs/team.json"
       ],
       "patterns": []
     },
@@ -1202,7 +1202,7 @@
     "/generated/docs/api/webSocket/WebSocketSubject.json": "dcf113b097f5ca41a19c1c718f0745aadf11f3e8",
     "/generated/docs/api/webSocket/WebSocketSubjectConfig.json": "d07307ff66f25b47e1a373734375fb3a48fbaf69",
     "/generated/docs/api/webSocket/webSocket.json": "e594d12864bc1e28b5f57d6154678e7b5884b5fe",
-    "/generated/docs/app/decision-tree-data.json": "99b0af83a3766905f274bb308bc5442f5d0b23f2",
+    "/generated/docs/app/decision-tree-data.json": "3fc0234173ae1de074b864f3b1a0892b8ba3b38c",
     "/generated/docs/app/search-data.json": "f5c842796f68834ccaae78ab3b179ea80e822544",
     "/generated/docs/blackLivesMatter.json": "21fa13a36d87e32f09f72d13aabf5bfb30fe824f",
     "/generated/docs/code-of-conduct.json": "a766fc4e8bce0090042596daca58e546ecb3f3b3",
@@ -1236,8 +1236,8 @@
     "/generated/images/marketing/home/Rx_Logo-512-512.png": "e6ef1cb9cb6713ce6a2f9dbba3fadd2cbb857b61",
     "/generated/images/marketing/home/rxjs-live-london.svg": "ee5be6c5fa1ace0189d08d9e5b0c5b85329d75b8",
     "/generated/images/marketing/home/rxjs-live.svg": "7820f8617811705386e2630d7cb79c4e73b7a5ca",
-    "/generated/navigation.json": "9173783f08a9f9b27ecef4d7895485e42131438b",
-    "/index.html": "fa13c421e289535616c9966c8e736f341779df49",
+    "/generated/navigation.json": "32d9f3b3d4d372834e8b1722f15e77bdde8e8187",
+    "/index.html": "06b571934da7e1ebeb85de97e52c4417dc35ca95",
     "/main-es2015.4c11f8815c0c678da4fc.js": "94d0427a64416a0fdb5b568ea3bcb9877f2426e9",
     "/main-es5.4c11f8815c0c678da4fc.js": "6aaabeb635db2826907021cb7fcdef30fb8f6fe3",
     "/polyfills-es2015.d95e2a8ddc6ccacab517.js": "1a497d8264c84e6ebaf1b651c8ee2e93c5536035",
