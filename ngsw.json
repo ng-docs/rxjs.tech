@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1642495485984,
+  "timestamp": 1642497448467,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -52,8 +52,8 @@
         "/common-es2015.8285eaed4a3acf35f6a9.js",
         "/common-es5.8285eaed4a3acf35f6a9.js",
         "/index.html",
-        "/main-es2015.4c11f8815c0c678da4fc.js",
-        "/main-es5.4c11f8815c0c678da4fc.js",
+        "/main-es2015.09564362fc0babf6f550.js",
+        "/main-es5.09564362fc0babf6f550.js",
         "/polyfills-es2015.d95e2a8ddc6ccacab517.js",
         "/polyfills-es5.94c87d1d392984df8364.js",
         "/pwa-manifest.json",
@@ -80,10 +80,7 @@
         "/assets/images/logos/github-icon.svg",
         "/assets/images/logos/logo.png",
         "/assets/images/logos/twitter-icon.svg",
-        "/assets/images/support/rxjs-404.png",
-        "/generated/images/marketing/home/Rx_Logo-512-512.png",
-        "/generated/images/marketing/home/rxjs-live-london.svg",
-        "/generated/images/marketing/home/rxjs-live.svg"
+        "/assets/images/support/rxjs-404.png"
       ],
       "patterns": []
     },
@@ -117,6 +114,19 @@
       "urls": [
         "/generated/announcements.json",
         "/generated/contributors.json",
+        "/generated/docs/6-to-7-change-summary.json",
+        "/generated/docs/api.json",
+        "/generated/docs/api/api-list.json",
+        "/generated/docs/app/search-data.json",
+        "/generated/docs/blackLivesMatter.json",
+        "/generated/docs/code-of-conduct.json",
+        "/generated/docs/deprecations.json",
+        "/generated/docs/file-not-found.json",
+        "/generated/docs/index.json",
+        "/generated/docs/license.json",
+        "/generated/docs/maintainer-guidelines.json",
+        "/generated/docs/operator-decision-tree.json",
+        "/generated/docs/team.json",
         "/generated/navigation.json"
       ],
       "patterns": []
@@ -129,8 +139,6 @@
         "ignoreVary": true
       },
       "urls": [
-        "/generated/docs/6-to-7-change-summary.json",
-        "/generated/docs/api.json",
         "/generated/docs/api/ajax.json",
         "/generated/docs/api/ajax/AjaxConfig.json",
         "/generated/docs/api/ajax/AjaxDirection.json",
@@ -139,7 +147,6 @@
         "/generated/docs/api/ajax/AjaxResponse.json",
         "/generated/docs/api/ajax/AjaxTimeoutError.json",
         "/generated/docs/api/ajax/ajax.json",
-        "/generated/docs/api/api-list.json",
         "/generated/docs/api/deprecations.json",
         "/generated/docs/api/fetch.json",
         "/generated/docs/api/fetch/fromFetch.json",
@@ -500,10 +507,6 @@
         "/generated/docs/api/webSocket/WebSocketSubjectConfig.json",
         "/generated/docs/api/webSocket/webSocket.json",
         "/generated/docs/app/decision-tree-data.json",
-        "/generated/docs/app/search-data.json",
-        "/generated/docs/blackLivesMatter.json",
-        "/generated/docs/code-of-conduct.json",
-        "/generated/docs/deprecations.json",
         "/generated/docs/deprecations/array-argument.json",
         "/generated/docs/deprecations/breaking-changes.json",
         "/generated/docs/deprecations/multicasting.json",
@@ -511,7 +514,6 @@
         "/generated/docs/deprecations/scheduler-argument.json",
         "/generated/docs/deprecations/subscribe-arguments.json",
         "/generated/docs/deprecations/to-promise.json",
-        "/generated/docs/file-not-found.json",
         "/generated/docs/guide/core-semantics.json",
         "/generated/docs/guide/glossary-and-semantics.json",
         "/generated/docs/guide/higher-order-observables.json",
@@ -525,11 +527,9 @@
         "/generated/docs/guide/subject.json",
         "/generated/docs/guide/subscription.json",
         "/generated/docs/guide/testing/marble-testing.json",
-        "/generated/docs/index.json",
-        "/generated/docs/license.json",
-        "/generated/docs/maintainer-guidelines.json",
-        "/generated/docs/operator-decision-tree.json",
-        "/generated/docs/team.json"
+        "/generated/images/marketing/home/Rx_Logo-512-512.png",
+        "/generated/images/marketing/home/rxjs-live-london.svg",
+        "/generated/images/marketing/home/rxjs-live.svg"
       ],
       "patterns": []
     },
@@ -1202,7 +1202,7 @@
     "/generated/docs/api/webSocket/WebSocketSubject.json": "dcf113b097f5ca41a19c1c718f0745aadf11f3e8",
     "/generated/docs/api/webSocket/WebSocketSubjectConfig.json": "d07307ff66f25b47e1a373734375fb3a48fbaf69",
     "/generated/docs/api/webSocket/webSocket.json": "e594d12864bc1e28b5f57d6154678e7b5884b5fe",
-    "/generated/docs/app/decision-tree-data.json": "3fc0234173ae1de074b864f3b1a0892b8ba3b38c",
+    "/generated/docs/app/decision-tree-data.json": "742ae8abcba3284f872021842aae10e8d77202cb",
     "/generated/docs/app/search-data.json": "f5c842796f68834ccaae78ab3b179ea80e822544",
     "/generated/docs/blackLivesMatter.json": "21fa13a36d87e32f09f72d13aabf5bfb30fe824f",
     "/generated/docs/code-of-conduct.json": "a766fc4e8bce0090042596daca58e546ecb3f3b3",
@@ -1236,10 +1236,10 @@
     "/generated/images/marketing/home/Rx_Logo-512-512.png": "e6ef1cb9cb6713ce6a2f9dbba3fadd2cbb857b61",
     "/generated/images/marketing/home/rxjs-live-london.svg": "ee5be6c5fa1ace0189d08d9e5b0c5b85329d75b8",
     "/generated/images/marketing/home/rxjs-live.svg": "7820f8617811705386e2630d7cb79c4e73b7a5ca",
-    "/generated/navigation.json": "32d9f3b3d4d372834e8b1722f15e77bdde8e8187",
-    "/index.html": "06b571934da7e1ebeb85de97e52c4417dc35ca95",
-    "/main-es2015.4c11f8815c0c678da4fc.js": "94d0427a64416a0fdb5b568ea3bcb9877f2426e9",
-    "/main-es5.4c11f8815c0c678da4fc.js": "6aaabeb635db2826907021cb7fcdef30fb8f6fe3",
+    "/generated/navigation.json": "f281272e086507dd530a53f5ba01fc36e7f84ec2",
+    "/index.html": "f594d42aa981a1c11f4453847fcbdc2e9ccf5c15",
+    "/main-es2015.09564362fc0babf6f550.js": "18b835563bdd7c8965a6734496a1598f5e96f6b0",
+    "/main-es5.09564362fc0babf6f550.js": "54d202de36f8eb7bf8eb7ce4772f92f520f42f69",
     "/polyfills-es2015.d95e2a8ddc6ccacab517.js": "1a497d8264c84e6ebaf1b651c8ee2e93c5536035",
     "/polyfills-es5.94c87d1d392984df8364.js": "234ebe2e7e2c06952706f6cd41e4faff51a8ec20",
     "/pwa-manifest.json": "730c1f962b759e484e90ea92f8ef2414eaace09d",
