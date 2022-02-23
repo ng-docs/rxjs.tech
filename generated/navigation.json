@@ -19,7 +19,7 @@
     },
     {
       "url": "https://rxjs.angular.tw",
-      "title": "繁体中文版",
+      "title": "正體中文版",
       "external": true
     }
   ],
@@ -152,12 +152,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.0eb2e68e2",
+    "build": "sha.697a09f66",
     "version": "7.5.3-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "7.5.3-local+sha.0eb2e68e2",
+    "full": "7.5.3-local+sha.697a09f66",
     "branch": "master",
-    "commitSHA": "0eb2e68e2de1a34e5b2bc7650eb26c51c91a4dee"
+    "commitSHA": "697a09f66a76a393cfbac1ef9dbc5308dedb8116"
   }
 }
