@@ -31,7 +31,7 @@
       "children": [
         {
           "url": "guide/observable",
-          "title": " Observable（Observables）"
+          "title": " 可观察者（Observables）"
         },
         {
           "url": "guide/observer",
@@ -151,12 +151,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.7f5fd701c",
+    "build": "sha.7f8528daa",
     "version": "7.5.3-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "7.5.3-local+sha.7f5fd701c",
+    "full": "7.5.3-local+sha.7f8528daa",
     "branch": "master",
-    "commitSHA": "7f5fd701cbbb4512ccd77e8327954277a1437fe4"
+    "commitSHA": "7f8528daafcfe4df4350bb5cd795d2b4bb88a986"
   }
 }
